@@ -11,6 +11,45 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="/images/favicon.ico" sizes="any">
 		<link rel="stylesheet" href="assets/css/main.css" />
+	<style>
+		.container {
+		display: grid;
+		justify-content: space-between;
+		align-items: center;
+		height: auto; /* Full viewport height */
+		padding: 30px;
+		background-color: transparent; /* Light gray background */
+		grid-template-columns: 1.5fr 1fr; /* Two equal columns */
+		}
+
+		.left-content {
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		padding: 5px;
+		padding-left: 100px;
+		background-color: slategray;
+		border-radius: 50px;
+		box-shadow: 0 0 10px lightgrey;
+		}
+
+		.left-detail {
+		width: auto;
+		height: auto;
+		padding: 10px;
+		padding-left: 50px;
+		background-color: transparent;
+		border-radius: 50px;
+		}
+
+		.right-image img {
+		max-width: auto;
+		height: auto;
+		border-radius: 50px;
+		padding: 5px;
+		/*box-shadow: 0 0 10px lightgrey;*/
+		}
+  	</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -38,36 +77,51 @@
 
 				
 				<!-- Main -->
-				<div id="main">
-
-					<!-- Post -->
-						<section class="post">
-							<header class="major">
-								<h3>General Construction Project Bid Proposals</h3>
-								<strong style="text-indent: 80px">M&M Construction Builders and Company specializes in a diverse range of construction projects, including commercial, industrial, residential, and infrastructure developments.
-									Our expertise spans new construction, renovations, tenant improvements, and turnkey solutions. We engage in office buildings, retail centers, hotels, warehouses, manufacturing facilities, multi-family housing, and mixed-use developments.
-									Additionally, we provide project management, engineering design, permit processing, and site consulting to ensure seamless execution. With a commitment to quality and innovation, we deliver projects that meet industry standards and exceed client expectations.</strong>
-							</header>
-							<p><span id="my"></span>
-									<h5>Residential Construction:</h5>
-										<strong>- Single-family homes<br>
-										- Multi-family housing (apartments, condos, townhouses)<br>
-										- Custom-built homes<br>
-										- Manufactured or modular homes<br>
-										- Home renovations and remodeling<br>
-										<br></strong>
-									<h5>Commercial Construction:</h5>
-										<strong>- Office buildings &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Retail stores and Shopping Malls<br>
-										- Hotels and Resorts &nbsp;&nbsp;&nbsp; - Restaurants and Cafes<br>
-										- Retrofit (Warehouses to Offices)<br>
-										<br></strong>
-									<h5>Industrial, Institutional, and Government Construction:</h5>
-										<strong>- Warehouses and Distribution Centers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Schools and Universities<br>
-										- Hospitals and Healthcare Facilities &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Government Buildings and Courthouses<br>
-										- Prisons and Detention Centers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Libraries and Museums
-									</strong>
+				<!--<div id="main">-->
+				<div class="container">
+					<div class="left-content">
+							<p>
+									<h4>Residential Construction:</h4>
+									<ul class="left-detail">
+										<strong>
+											<li>Single-family homes
+											<li> Multi-family housing (apartments, condos, townhouses)
+											<li> Custom-built homes
+											<li> Manufactured or modular homes
+											<li> Home renovations and remodeling
+											<li> ADU (Accessory Dwelling Units)
+										</strong>
+									</ul>
+									<h4>Commercial Construction:</h4>
+									<ul class="left-detail">
+										<strong>
+											<li> Office buildings 
+											<li> Retail stores and Shopping Malls
+											<li> Hotels and Resorts 
+											<li> Restaurants and Cafes
+											<li> Retrofit (Warehouses to Offices)
+										</strong>
+									</ul>
+									<h4>Industrial, Institutional, and Government Construction:</h4>
+									<ul class="left-detail">
+										<strong>
+											<li> Warehouses and Distribution Centers 
+											<li> Schools and Universities
+											<li> Hospitals and Healthcare Facilities
+											<li> Government Buildings and Courthouses<br>
+											<li> Prisons and Detention Centers
+											<li> Libraries and Museums
+										</strong>
+									</ul>
 							</p>
-						</section>
+						
+					</div>
+					<div class="right-image">
+						<img src="images/view-modern-construction-site.jpg" alt="Our Projects Image" />
+						<img src="images/full-shot-roofers-working-together-with-helmets.jpg" alt="Our Projects Image" />
+						<img src="images/construction-silhouette.jpg" alt="Our Projects Image" />
+					</div>
+					
 				</div>
 
 				<!-- Copyright -->

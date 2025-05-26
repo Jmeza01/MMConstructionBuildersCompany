@@ -11,7 +11,46 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="icon" href="/images/favicon.ico" sizes="any">
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style>
+		.container {
+			display: contents;
+			justify-content: space-between;
+			align-items: center;
+			height: 30%; /* Full viewport height */
+			padding: 50px;
+			background-color: transparent; /* Light gray background */
+			grid-template-columns: 1fr 1fr; /* Two equal columns */
+		}
+
+		.left-content {
+			width: auto;
+			height: auto;
+			padding: 5px;
+			background-color: slategray;
+			border-radius: 100px;
+			box-shadow: 0 0 10px lightgrey;
+		}
+
+		.left-detail {
+			width: auto;
+			height: auto;
+			padding: 10px;
+			padding-left: 275px;
+			background-color: transparent;
+			border-radius: 100px;
+		}
+
+		.right-image img {
+			max-width: auto;
+			height: auto;
+			border-radius: 50px;
+			padding: 5px;
+			padding-left: 100px;
+			box-shadow: 0 0 10px lightgrey;
+			background-color: black;
+		}
+	</style>
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -58,25 +97,26 @@
 							<hr style="border: 2px solid transparent">
 
 						<!--Post-->
-					
-						<div class="post">
-							<header class="major">
-								
+					<div class="container">
+						<div class="left-content">
+							<ul class="left-detail">
 								<h2> Become our Future <br> Trade Partner!</h2>
-								<strong><span>Please register by submitting your information in this Registration Form to be considered in our Sub-contractor's Contact Directory. <br> As soon as you get enlisted in our Subcontractor's Contact Directory you will have the opportunity to get Approved by our Estimating Team which <br> will reach and offer an Invitation for Bid when a New Project is Available.</span></strong>
+								<p><strong><span>Please register by submitting your information in this Registration Form to be considered in our Sub-contractor's Contact Directory. <br> As soon as you get enlisted in our Subcontractor's Contact Directory you will have the opportunity to get Approved by our Estimating Team which <br> will reach and offer an Invitation for Bid when a New Project is Available.</span></strong>
 								<br>
 								<br>
 								<strong>(Tip: This can help us be able to consider your company for any future new construction bid projects.)</strong> 
 								<br>
 								<br>
 								<strong>Thank you for your business and for taking this first step to be our trade partner in future bid projects!</strong>
-								
-							</header>
-							<ul class="actions special">
+								</p>
+							</ul>
+						</div>
+						<div class="right-image">
+							<ul class="left-detail">
 								<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmbBFICZLZxV6bF80XO3fRFPJXjFhwkkioZb2UiafJLMt2SQ/viewform?usp=header" width="640" height="2059" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 							</ul>
 						</div>
-					
+					</div>
 					<!-- Footer -->
 					
 					<footer id="footer">
@@ -106,7 +146,6 @@
 							<img src="images/M&M_Construction_Builders_Logo_Vectorized.png";/>
 						</section>
 					</footer>
-					</div>
 
 
 				<!-- Copyright -->
